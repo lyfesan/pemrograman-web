@@ -5,81 +5,7 @@
         <meta name="viewport" contents="width=device-width, initial-scale=1.0">
         <title>The Top Five Statistics</title>
         <link rel="icon" href="assets/icons/favicon-monument-logo.png">
-        <style>
-            * {
-                font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-            }
-            a {
-                color: blue;
-                text-decoration: none;
-            }
-            hr {
-                max-width: 90%;
-                border: 1px solid black;
-                margin: auto;
-                
-            }
-            body {
-                margin: 5px; 
-                text-align: center;
-            }
-            main {
-                margin: auto;
-                margin-bottom: 10px; 
-                max-width: fit-content;
-            }
-            ul {
-                font-size: medium;
-            }
-            h2 {
-                margin-bottom: 1px;
-            }
-            table {
-                text-align: center;
-                width: fit-content;
-                table-layout: auto;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 20px;
-                border-collapse: collapse;
-                border: 1px solid black;
-            }
-            th {
-                border: 1px solid black;
-                padding: 5px;
-                font-size: medium;
-                background-color: #dddddd;
-                text-align: center;
-            }
-            td {
-                border: 1px solid black;
-                padding: 5px;
-                font-size: small;
-            }
-            .table-of-content {
-                width: 80%;
-                background-color: none;
-                margin: auto;
-                margin-top: 10px;
-                padding-right: 20px;
-                border: 1px solid black;
-                border-radius: 5px;
-                font-size: medium;
-                text-align: left;
-                line-height: 1.5;
-            }
-            .contents {
-                text-align: left;
-                max-width: 100%;
-            }
-            footer {
-                font-size: medium;
-                background-color: white;
-                border-top: 1px solid black;
-                margin-top: 10px;
-                position: relative;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <!-- Main Content -->
@@ -121,81 +47,87 @@
                 </ul>
             </section>
             
-            <div class="contents" style="text-align: left; width:100%">
+            <div class="contents">
                 <section id="popular-social-media">
                     <h2>Top 5 Most Popular Social Media Platform</h2>
                     <hr class="contents">
-                    <table>
-                        <th>Rank</th>
-                        <th>Platform</th>
-                        <th>Number of Monthly Active Users (in millions)</th>
-                        <tr>
-                            <td>1</td>
-                            <td>Facebook</td>
-                            <td>2,958</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Youtube</td>
-                            <td>2,514</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Whatsapp</td>
-                            <td>2,000</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Instagram</td>
-                            <td>2,000</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>WeChat</td>
-                            <td>1,309</td>
-                        </tr>
-                    </table>
+                    <figure>
+                        <table>
+                            <th>Rank</th>
+                            <th>Platform</th>
+                            <th>Number of Monthly Active Users (in millions)</th>
+                            <tr>
+                                <td>1</td>
+                                <td>Facebook</td>
+                                <td>2,958</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Youtube</td>
+                                <td>2,514</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Whatsapp</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Instagram</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>WeChat</td>
+                                <td>1,309</td>
+                            </tr>
+                        </table>
+                        <figcaption><a class="captions" href="https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/">source: statista </a></figcaption>
+                    </figure>
                 </section>
 
                 <section id="highest-grossing-movies">
                     <h2>Top 5 Highest Grossing Movies</h2>
                     <hr class="contents">
-                    <table>
-                        <th>Rank</th>
-                        <th>Title</th>
-                        <th>Lifetime Gross (in USD)</th>
-                        <th>Year Released</th>
-                        <tr>
-                            <td>1</td>
-                            <td>Avatar</td>
-                            <td>$2,923,706,026</td>
-                            <td>2009</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Avengers: Endgame</td>
-                            <td>$2,799,439,100</td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Avatar: The Way of Water</td>
-                            <td>$2,320,250,281</td>
-                            <td>2022</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Titanic</td>
-                            <td>$2,264,743,305</td>
-                            <td>1997</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Star Wars: Episode VII - The Force Awakens</td>
-                            <td>$2,071,310,218</td>
-                            <td>2015</td>
-                        </tr>
-                    </table>
+                    <figure>
+                        <table>
+                            <th>Rank</th>
+                            <th>Title</th>
+                            <th>Lifetime Gross (in USD)</th>
+                            <th>Year Released</th>
+                            <tr>
+                                <td>1</td>
+                                <td>Avatar</td>
+                                <td>$2,923,706,026</td>
+                                <td>2009</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Avengers: Endgame</td>
+                                <td>$2,799,439,100</td>
+                                <td>2019</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Avatar: The Way of Water</td>
+                                <td>$2,320,250,281</td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Titanic</td>
+                                <td>$2,264,743,305</td>
+                                <td>1997</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Star Wars: Episode VII - The Force Awakens</td>
+                                <td>$2,071,310,218</td>
+                                <td>2015</td>
+                            </tr>
+                        </table>
+                        <figcaption><a class="captions" href="https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/?area=XWW">source: Box Office Mojo </a></figcaption>
+                    </figure>
                 </section>
                 
                 <!-- Most Watched Music Video Youtube -->
@@ -341,8 +273,86 @@
                     <h2>Top 5 Most Popular Destinations</h2>
                     <hr class="contents">
                     <ol>
-                        
+                        <li>
+                            <p>Dubai, United Arab Emirates</p>
+                            <figure>
+                                <img src="assets/images/dubai.jpg" alt="scenery photo of Dubai" width="480">
+                                <figcaption class="captions" style="font-size: xx-small;"><a class="captions" href="https://www.tripadvisor.com/TravelersChoice-Destinations-cPopular-g1" target="_blank">source: Tripadvisor</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>Bali, Indonesia</p>
+                            <figure>
+                                <img src="assets/images/bali.jpg" alt="scenery photo of Bali" width="480">
+                                <figcaption style="font-size: xx-small;"><a class="captions" href="https://www.tripadvisor.com/TravelersChoice-Destinations-cPopular-g1" target="_blank">source: Tripadvisor</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>London, United Kingdom</p>
+                            <figure>
+                                <img src="assets/images/london.jpg" alt="scenery photo of London" width="480">
+                                <figcaption style="font-size: xx-small;"><a class="captions" href="https://www.tripadvisor.com/TravelersChoice-Destinations-cPopular-g1" target="_blank">source: Tripadvisor</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>Rome, Italia</p>
+                            <figure>
+                                <img src="assets/images/rome.jpg" alt="scenery photo of Rome" width="480">
+                                <figcaption style="font-size: xx-small;"><a class="captions" href="https://www.tripadvisor.com/TravelersChoice-Destinations-cPopular-g1" target="_blank">source: Tripadvisor</a></figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>Paris, France</p>
+                            <figure>
+                                <img src="assets/images/paris.jpg" alt="scenery photo of Paris" width="480">
+                                <figcaption style="font-size: xx-small;"><a class="captions" href="https://www.tripadvisor.com/TravelersChoice-Destinations-cPopular-g1" target="_blank">source: Tripadvisor</a></figcaption>
+                            </figure>
+                        </li>
                     </ol>
+                </section>
+
+                <section id="best-seller-books">
+                    <h2>Top 5 Best Selling Books</h2>
+                    <hr class="contents">
+                    <figure>
+                        <table>
+                            <th>Rank</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Copies Sold</th>
+                            <tr>
+                                <td>1</td>
+                                <td>Don Quixote</td>
+                                <td>Miguel de Cervantes</td>
+                                <td>&PlusMinus;500 millions</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>A Tale of Two Cities</td>
+                                <td>Charles Dickens</td>
+                                <td>&PlusMinus;200 millions</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>The Fellowship of the Ring</td>
+                                <td>J.R.R. Tolkien</td>
+                                <td>&PlusMinus;150 millions</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Le Petit Prince</td>
+                                <td>Antoine de Saint-Exupéry</td>
+                                <td>&PlusMinus;140 millions</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Harry Potter and the Sorcerer's Stone</td>
+                                <td> J.K. Rowling</td>
+                                <td>&PlusMinus;120 millions</td>
+                            </tr>
+                        </table>
+                        <figcaption><a class="captions" href="https://www.businessinsider.com/guides/learning/best-selling-books-of-all-time">source: Business Insider </a></figcaption>
+                    </figure>
                 </section>
             </div>
         </main>
